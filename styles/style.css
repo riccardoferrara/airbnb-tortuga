@@ -33,3 +33,7 @@
 .house_thumbnail {
     background-size: cover;
 }
+
+.inline {
+    display: inline-block;
+}
