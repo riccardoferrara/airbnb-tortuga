@@ -8,45 +8,45 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 
-<body></body>
-<div class="header">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light white">
-        <div class="container">
-            <img class="logo" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png">
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                </ul>
-                <form class="d-flex gap-3">
-                    <button class="btn btn-outline-success" type="submit">Riccardo Ferrara</button>
-                    <button class="btn btn-outline-success" type="submit">Logout</button>
+<body>
+    <div class="header">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light white">
+            <div class="container">
+                <img class="logo" src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1642399114/portal/web%20development%20beginners/05%20Project%20Airbnb/assets/logo-airbnb.png">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <form class="d-flex gap-3">
+                        <button class="btn btn-outline-success" type="submit">Riccardo Ferrara</button>
+                        <button class="btn btn-outline-success" type="submit">Logout</button>
 
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-    </nav>
-</div>
-<!-- end header -->
-<!-- start search bar -->
-<div id="search_bar">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light grey">
-        <div class="container">
-            <div></div>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <select class="form-select" aria-label="Default select example">
+        </nav>
+    </div>
+    <!-- end header -->
+    <!-- start search bar -->
+    <div id="search_bar">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light grey">
+            <div class="container">
+                <div></div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <select class="form-select" aria-label="Default select example">
                               <option selected>Any location</option>
                               <option value="1">Koh Phangan</option>
                               <option value="2">Koh Samui</option>
                               <option value="3">Bali</option>
                             </select> </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <select class="form-select" aria-label="Default select example">
+                        </li>
+                        <li class="nav-item">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <select class="form-select" aria-label="Default select example">
                             <option selected>Any rooms</option>
                             <option value="1">1 room</option>
                             <option value="2">2 rooms</option>
@@ -54,120 +54,121 @@
                             <option value="4">4 rooms</option>
                             <option value="5">5 rooms</option>
                           </select> </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <select class="form-select" aria-label="Default select example">
+                        </li>
+                        <li class="nav-item">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <select class="form-select" aria-label="Default select example">
                           <option selected>Price (low to high)</option>
                           <option value="1">Price (high to low)</option>
                         </select> </div>
-                    </li>
-                    <li class="nav-item">
-                        <div class="input-group">
-                            <span class="input-group-text" id="basic-addon1">@</span>
-                            <input type="number" class="form-control" placeholder="max price" aria-label="max_price" aria-describedby="basic-addon1" min="0" max="10000">
-                        </div>
-                    </li>
-                </ul>
-                <form class="d-flex gap-3">
-                    <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
-                    <input class="form-control me-2" type="search" placeholder="House name..." aria-label="Search">
-                    <button class="btn btn-success" type="submit">Search</button>
+                        </li>
+                        <li class="nav-item">
+                            <div class="input-group">
+                                <span class="input-group-text" id="basic-addon1">@</span>
+                                <input type="number" class="form-control" placeholder="max price" aria-label="max_price" aria-describedby="basic-addon1" min="0" max="10000">
+                            </div>
+                        </li>
+                    </ul>
+                    <form class="d-flex gap-3">
+                        <!-- <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"> -->
+                        <input class="form-control me-2" type="search" placeholder="House name..." aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
 
-                </form>
-            </div>
-        </div>
-    </nav>
-</div>
-<!-- end search bar -->
-<!-- start results -->
-<div class="results">
-    <div class="container pt-4">
-        <!-- start first row -->
-        <div class="row gy-4">
-            <div class="col-sm-3">
-                <div class="card w-100" style="width: 18rem;">
-                    <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
-                        <h5 class="card-title">Luxury Villa in Chaweng</h5>
-                        <small>3 Reviews</small>
-                        <small>$350/night</small>
-                    </div>
+                    </form>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div class="card w-100" style="width: 18rem;">
-                    <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_02.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
-                        <h5 class="card-title">Luxury Villa in Chaweng</h5>
-                        <small>3 Reviews</small>
-                        <small>$350/night</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card w-100" style="width: 18rem;">
-                    <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_03.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
-                        <h5 class="card-title">Luxury Villa in Chaweng</h5>
-                        <small>3 Reviews</small>
-                        <small>$350/night</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card w-100" style="width: 18rem;">
-                    <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_04.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
-                        <h5 class="card-title">Luxury Villa in Chaweng</h5>
-                        <small>3 Reviews</small>
-                        <small>$350/night</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card w-100" style="width: 18rem;">
-                    <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_05.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
-                        <h5 class="card-title">Luxury Villa in Chaweng</h5>
-                        <small>3 Reviews</small>
-                        <small>$350/night</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card w-100" style="width: 18rem;">
-                    <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_06.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
-                        <h5 class="card-title">Luxury Villa in Chaweng</h5>
-                        <small>3 Reviews</small>
-                        <small>$350/night</small>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-3">
-                <div class="card w-100" style="width: 18rem;">
-                    <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_07.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
-                        <h5 class="card-title">Luxury Villa in Chaweng</h5>
-                        <small>3 Reviews</small>
-                        <small>$350/night</small>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-        <!-- end first row -->
+        </nav>
     </div>
-</div>
-<!-- end results -->
+    <!-- end search bar -->
+    <!-- start results -->
+    <div class="results">
+        <div class="container pt-4">
+            <!-- start first row -->
+            <div class="row gy-4">
+                <div class="col-sm-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_01.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
+                            <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                            <small>3 Reviews</small>
+                            <small>$350/night</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_02.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
+                            <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                            <small>3 Reviews</small>
+                            <small>$350/night</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_03.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
+                            <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                            <small>3 Reviews</small>
+                            <small>$350/night</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_04.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
+                            <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                            <small>3 Reviews</small>
+                            <small>$350/night</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_05.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
+                            <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                            <small>3 Reviews</small>
+                            <small>$350/night</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_06.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
+                            <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                            <small>3 Reviews</small>
+                            <small>$350/night</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="card w-100" style="width: 18rem;">
+                        <img src="https://res.cloudinary.com/dsko6ntfj/image/upload/v1640295026/portal/web%20development%20beginners/05%20Project%20Airbnb/house%2001/house_01_07.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-subtitle mb-2 text-muted">Koh Samui 4 Rooms</h6>
+                            <h5 class="card-title">Luxury Villa in Chaweng</h5>
+                            <small>3 Reviews</small>
+                            <small>$350/night</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- end first row -->
+        </div>
+    </div>
+    <!-- end results -->
+</body>
 
 </html>
