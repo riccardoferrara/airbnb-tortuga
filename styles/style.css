@@ -16,10 +16,6 @@
     height: 50vh;
 }
 
-.main_img {
-    background-color: tomato;
-}
-
 .house_thumbnails {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -30,5 +26,9 @@
 }
 
 .house_thumbnail {
+    width: 100%;
+}
+
+.main_img {
     width: 100%;
 }
