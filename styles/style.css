@@ -65,3 +65,18 @@
     .review {
         border: solid 1px lightgray;
     }
+    /* login */
+    
+    .bg_image {
+        height: 100vh;
+        background-size: cover;
+        display: grid;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .login_card {
+        height: 20vw;
+        width: 40vh;
+        background-color: lightgray;
+    }
