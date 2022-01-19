@@ -6,6 +6,10 @@
     background-color: white !important;
 }
 
+.grey {
+    background-color: lightgray !important;
+}
+
 .padding {
     padding-left: 30px;
     padding-right: 30px;
