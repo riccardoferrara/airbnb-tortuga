@@ -1,4 +1,12 @@
 .logo {
     height: 30px;
-    margin-left: 30px;
+}
+
+.white {
+    background-color: white !important;
+}
+
+.padding {
+    padding-left: 30px;
+    padding-right: 30px;
 }
