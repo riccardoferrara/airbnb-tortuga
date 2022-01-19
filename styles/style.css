@@ -1,39 +1,47 @@
-.logo {
-    height: 30px;
-}
-
-.white {
-    background-color: white !important;
-}
-
-.grey {
-    background-color: lightgray !important;
-}
-
-.house_pics {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 50vh;
-}
-
-.house_thumbnails {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    grid-row-gap: 40px;
-    grid-column-gap: 40px;
-    padding: 20px;
-}
-
-.main_img {
-    /* width: 100%; */
-    background-size: cover;
-}
-
-.house_thumbnail {
-    background-size: cover;
-}
-
-.inline {
-    display: inline-block;
-}
+    .logo {
+        height: 30px;
+    }
+    
+    .white {
+        background-color: white !important;
+    }
+    
+    .grey {
+        background-color: lightgray !important;
+    }
+    
+    .house_pics {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 50vh;
+    }
+    
+    .house_thumbnails {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-row-gap: 40px;
+        grid-column-gap: 40px;
+        padding: 20px;
+    }
+    
+    .main_img {
+        /* width: 100%; */
+        background-size: cover;
+    }
+    
+    .house_thumbnail {
+        background-size: cover;
+    }
+    
+    .inline {
+        display: inline-block;
+    }
+    
+    .circular--square {
+        border-radius: 50%;
+    }
+    
+    .avatar {
+        height: 4rem;
+    }
