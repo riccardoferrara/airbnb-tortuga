@@ -78,5 +78,12 @@
     .login_card {
         height: 20vw;
         width: 40vh;
-        background-color: lightgray;
+        background-color: rgb(243, 242, 242);
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+        padding: 12px;
+    }
+    
+    .center {
+        display: block;
+        margin: auto;
     }
