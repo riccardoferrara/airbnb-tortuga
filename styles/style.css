@@ -60,3 +60,7 @@
         width: min-content;
         white-space: nowrap;
     }
+    
+    .review {
+        border: solid 1px lightgray;
+    }
