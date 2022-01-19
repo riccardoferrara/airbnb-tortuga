@@ -42,12 +42,21 @@
         border-radius: 50%;
     }
     
-    .avatar {
+    .avatar_img {
         height: 4rem;
+        width: 4rem;
+        background-size: cover;
     }
     
     .send_message {
         border: 1px solid lightgray;
         box-shadow: 1px 5px 20px rgba(168, 168, 168, 0.5);
         padding: 12px;
+    }
+    
+    .host_avatar {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: min-content;
+        white-space: nowrap;
     }
