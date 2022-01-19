@@ -9,3 +9,17 @@
 .grey {
     background-color: lightgray !important;
 }
+
+.house_pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 50vh;
+}
+
+.main_img {
+    background-color: tomato;
+}
+
+.house_thumbnails {
+    background-color: lightgreen;
+}
