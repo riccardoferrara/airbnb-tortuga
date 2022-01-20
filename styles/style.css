@@ -98,6 +98,10 @@
         background-color: #008080;
     }
     
+    .btn-success:hover {
+        background-color: #008080;
+    }
+    
     .btn-outline-success {
         color: #008080;
         border-color: #008080;
