@@ -93,3 +93,16 @@
         display: block;
         margin: auto;
     }
+    
+    .btn-success {
+        background-color: #008080;
+    }
+    
+    .btn-outline-success {
+        color: #008080;
+        border-color: #008080;
+    }
+    
+    .btn-outline-success:hover {
+        background-color: #008080;
+    }
