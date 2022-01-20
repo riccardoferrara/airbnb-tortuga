@@ -77,7 +77,14 @@
     
     .login_card {
         width: 40vh;
-        background-color: rgb(243, 242, 242);
+        background-color: rgb(250, 249, 249);
+        box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
+        padding: 12px;
+    }
+    
+    .signup_card {
+        width: 70vh;
+        background-color: rgb(250, 249, 249);
         box-shadow: 1px 5px 10px rgba(0, 0, 0, 0.5);
         padding: 12px;
     }
