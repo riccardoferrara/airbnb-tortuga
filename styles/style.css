@@ -18,15 +18,6 @@
         padding: 20px;
     }
     
-    .main_img {
-        /* width: 100%; */
-        background-size: cover;
-    }
-    
-    .house_thumbnail {
-        background-size: cover;
-    }
-    
     .avatar_img {
         height: 4rem;
         width: 4rem;
@@ -97,4 +88,8 @@
     
     .green {
         color: #008080;
+    }
+    
+    .cover {
+        background-size: cover;
     }
