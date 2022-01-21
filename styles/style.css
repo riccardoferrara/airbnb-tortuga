@@ -27,10 +27,6 @@
         background-size: cover;
     }
     
-    .inline {
-        display: inline-block;
-    }
-    
     .avatar_img {
         height: 4rem;
         width: 4rem;
