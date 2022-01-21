@@ -2,10 +2,6 @@
         height: 30px;
     }
     
-    .grey {
-        background-color: lightgray !important;
-    }
-    
     .house_pics {
         display: grid;
         grid-template-columns: 1fr 1fr;
