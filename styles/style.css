@@ -31,10 +31,6 @@
         display: inline-block;
     }
     
-    .circular--square {
-        border-radius: 50%;
-    }
-    
     .avatar_img {
         height: 4rem;
         width: 4rem;
